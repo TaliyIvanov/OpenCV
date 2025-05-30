@@ -21,7 +21,7 @@ blue_cnah, green_chan, red_chan = cv.split(img)
 # cv.imshow('GREEN', green_chan)
 # cv.imshow('RED', red_chan)
 
-# it's look very interestng, but what if merged back channels?
+# it's look very interesting, but what if merged back channels?
 channels_list = [blue_cnah, green_chan,red_chan]
 merged = cv.merge(channels_list)
 # cv.imshow('Merged', merged)
